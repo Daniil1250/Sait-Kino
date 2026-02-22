@@ -14,7 +14,7 @@ body {
   background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
 }
 
-/* Header */
+
 header {
   text-align: center;
   margin-bottom: 20px;
@@ -28,7 +28,7 @@ header img:hover {
   transform: scale(1.05);
 }
 
-/* Navigation */
+
 nav {
   background: linear-gradient(135deg, #07335E, #0a4a7a);
   padding: 15px;
@@ -59,7 +59,7 @@ nav ul li a:hover {
   transform: translateY(-2px);
 }
 
-/* Section posts */
+
 #post {
   background: white;
   padding: 30px;
@@ -103,7 +103,7 @@ nav ul li a:hover {
   box-shadow: 0 5px 15px rgba(7, 51, 94, 0.3);
 }
 
-/* Section price cards */
+
 #price {
   display: flex;
   gap: 30px;
@@ -165,91 +165,4 @@ nav ul li a:hover {
   transform: scale(1.02);
 }
 
-/* Footer */
-footer {
-  background: white;
-  padding: 40px 30px 20px;
-  border-radius: 15px 15px 0 0;
-  margin-top: 40px;
-  box-shadow: 0 -4px 15px rgba(0,0,0,0.1);
-  text-align: center;
-}
 
-.footer_about {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 15px;
-  margin-bottom: 30px;
-}
-
-.footer_about img {
-  border-radius: 10px;
-  margin-bottom: 10px;
-  border: 2px solid #07335E;
-}
-
-.footer_about h4 {
-  color: #07335E;
-  font-size: 1.3rem;
-}
-
-.footer_about input {
-  width: 300px;
-  padding: 12px 15px;
-  border: 2px solid #ddd;
-  border-radius: 8px;
-  font-size: 1rem;
-  transition: all 0.3s ease;
-}
-
-.footer_about input:focus {
-  outline: none;
-  border-color: #07335E;
-  box-shadow: 0 0 10px rgba(7, 51, 94, 0.2);
-}
-
-.footer_about button {
-  padding: 12px 40px;
-  background: linear-gradient(135deg, #07335E, #0a4a7a);
-  color: white;
-  border: none;
-  border-radius: 8px;
-  font-size: 1rem;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  font-weight: 600;
-}
-
-.footer_about button:hover {
-  transform: scale(1.05);
-  box-shadow: 0 5px 15px rgba(7, 51, 94, 0.3);
-}
-
-footer > p {
-  color: #666;
-  margin: 20px 0;
-  font-size: 1.1rem;
-}
-
-footer > a {
-  display: inline-block;
-  margin: 0 15px;
-  transition: all 0.3s ease;
-}
-
-
-footer > a:hover {
-  transform: translateY(-5px);
-}
-
-footer > a img {
-  border: 2px solid #07335E;
-  border-radius: 50%;
-  transition: all 0.3s ease;
-}
-
-footer > a:hover img {
-  border-color: #0a4a7a;
-  box-shadow: 0 5px 15px rgba(7, 51, 94, 0.3);
-}
