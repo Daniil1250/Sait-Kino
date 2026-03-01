@@ -7,7 +7,7 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  color: #333;
+  color: #333; /*Цвет текста*/
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
@@ -16,7 +16,7 @@ body {
 
 
 header {
-  text-align: center;
+  text-align: center; /*текст по центру*/
   margin-bottom: 20px;
 }
 
@@ -38,7 +38,7 @@ nav {
 }
 
 nav ul {
-  list-style: none;
+  list-style: none; /*отмена точек в марк списки*/
   display: flex;
   justify-content: center;
   gap: 40px;
@@ -46,9 +46,9 @@ nav ul {
 
 nav ul li a {
   color: white;
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 1.1rem;
+  text-decoration: none; /*отмена нижнего подчерк*/
+  font-weight: 500; /*толщина текста*/
+  font-size: 1.1rem; /*размер текста*/
   padding: 5px 10px;
   border-radius: 5px;
   transition: all 0.3s ease;
@@ -72,6 +72,7 @@ nav ul li a:hover {
 #post h3 {
   color: #07335E;
   font-size: 2rem;
+  letter-spacing: 5px; /*задает расстояние между букв*/
   margin-bottom: 10px;
 }
 
